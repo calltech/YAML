@@ -32,12 +32,3 @@ spec:
         image: <your Docker Hub account>/spring-boot-postgres-on-k8s:v1
 
 
-
-
-        
-
-spring.datasource.driverClassName=org.postgresql.Driver
-spring.datasource.url=jdbc:postgresql://${POSTGRES_HOST}:5432/postgres
-spring.datasource.username=${POSTGRES_USER}
-spring.datasource.password=${POSTGRES_PASSWORD}
-spring.jpa.hibernate.ddl-auto=update
